@@ -1,0 +1,982 @@
+.taj {
+    height: 95px;
+    width: 95px;
+}
+
+body {
+    //background-color: red;
+}
+
+.mynav {
+    font-size: 17.005px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: 500; */
+    font-style: normal;
+
+
+
+}
+
+.inter-<uniquifier> {}
+
+.navbar-nav {
+    gap: 15px;
+    color: white;
+    margin-top: 15px;
+    position: relative;
+}
+
+.mynav .nav-link,
+.mynav .navbar-brand {
+    color: white !important;
+}
+
+/* .navbar .dropdown-toggle::after {
+    content: "\2E9F";
+    font-size: 2px;
+    
+    margin-left: 6px;
+    border: none !important;
+} */
+.mt {
+    background-color: #AD8B3A;
+    color: white;
+    font-size: 17.005px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: 500; */
+    font-style: normal;
+}
+
+.video {
+    //position: relative;
+    //width: 100%;
+    height: 100vh !important;
+    /* full screen height */
+    //overflow: hidden;
+}
+
+.video-bg {
+    position: relative;
+    top: -160px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.india {
+    font-family: Cinzel, "Palatino Linotype", sans-serif;
+    font-size: 49.6128px;
+    font-weight: 400;
+    line-height: 59.5354px;
+    color: rgb(69, 68, 63);
+}
+
+.india::after {
+    content: '';
+    height: 1px;
+    width: 100px;
+    background-color: black;
+    position: absolute;
+    margin-top: 32px;
+    left: 82%;
+}
+
+.india::before {
+    content: '';
+    height: 1px;
+    width: 100px;
+    background-color: black;
+    position: absolute;
+    margin-top: 32px;
+    left: 11%;
+}
+
+.india1 {
+    font-family: Inter, sans-serif;
+    font-size: 17.6026px;
+    font-weight: 300;
+    line-height: 23.9616px;
+    color: rgb(69, 68, 63);
+}
+
+body,
+html {
+    overflow-x: hidden;
+
+}
+
+.my {
+    margin-top: -120px;
+}
+
+.india2 {
+    font-family: Cinzel, "Palatino Linotype", sans-serif;
+    font-size: 40.6128px;
+    font-weight: 400;
+    line-height: 59.5354px;
+    color: rgb(69, 68, 63);
+    margin-left: 60px;
+}
+
+.india2::before {
+    content: '';
+    height: 1px;
+    width: 50px;
+    background-color: black;
+    position: absolute;
+    margin-top: 32px;
+    left: 9%;
+}
+
+.spi {
+
+    font-family: Cinzel, "Palatino Linotype", sans-serif;
+    font-size: 17.2px;
+    font-weight: 400;
+    line-height: 26.112px;
+    color: rgb(69, 68, 63);
+    margin-left: 105px;
+    background-color: white;
+
+    padding: px;
+    margin-top: -40px;
+
+}
+
+.sip {
+    width: 531px;
+    height: 80px;
+
+
+
+}
+
+.more {
+    margin-left: -50px;
+}
+
+.relax {
+    font-family: Inter, sans-serif;
+    font-size: 17.6026px;
+    font-weight: 300;
+    line-height: 23.9616px;
+    color: rgb(69, 68, 63);
+}
+
+.splide__slide {
+    padding: 10px;
+    /* gap between slides */
+}
+
+.splide__slide img {
+    width: 100%;
+    height: auto;
+
+}
+
+.bg-grey {
+    background-color: #ECEFF1;
+}
+
+.relax1 {
+    font-family: Inter, sans-serif;
+    font-size: 16.4px;
+    font-weight: 400;
+    line-height: 20.16px;
+    color: rgb(173, 139, 58);
+}
+
+/* THIRD SLIDER STYLING */
+#thirdSlider {
+    margin-top: 60px;
+}
+
+#thirdSlider .splide__slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    /* border-radius: 10px; */
+    /* background: #fff; */
+    /* box-shadow: 0 4px 12px rgba(0,0,0,0.1); */
+    padding-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+#thirdSlider .splide__slide:hover {
+    transform: translateY(-5px);
+}
+
+#thirdSlider .third-slider-img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    /* border-top-left-radius: 10px; */
+    /* border-top-right-radius: 10px; */
+}
+
+#thirdSlider .third-caption {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #444;
+    margin-top: 10px;
+}
+
+/* --- ARROW STYLING FOR THIRD SLIDER --- */
+#thirdSlider .splide__arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    /* transparent background */
+    border: 2px solid #AD8B3A;
+    /* gold border */
+    color: #AD8B3A;
+    /* gold arrow icon */
+    width: 45px;
+    height: 45px;
+    /* border-radius: 50%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+    transition: all 0.3s ease;
+    z-index: 2;
+}
+
+/* Left and right arrow positions (inside the image edges) */
+#thirdSlider .splide__arrow--prev {
+    left: -60px;
+    margin-top: -100px;
+    /* move inside */
+}
+
+#thirdSlider .splide__arrow--next {
+    right: -60px;
+    margin-top: -100px;
+    /* move inside */
+}
+
+/* Arrow icon color */
+#thirdSlider .splide__arrow svg {
+    fill: #AD8B3A;
+    /* gold color */
+    width: 20px;
+    height: 20px;
+}
+
+/* Hover effect */
+#thirdSlider .splide__arrow:hover {
+    background: transparent;
+    border-color: #AD8B3A;
+    color: blue !important;
+}
+
+#thirdSlider .splide__arrow:hover svg {
+    fill: white;
+}
+
+
+.celeb {
+    font-family: Cinzel, "Palatino Linotype", sans-serif;
+    font-size: 19.2px;
+    font-weight: -100;
+    margin-left: -60px;
+    line-height: 26.112px;
+    color: rgb(69, 68, 63);
+}
+
+.celeb::before {
+
+    content: '';
+    height: 0.6px;
+    width: 38px;
+    background-color: black;
+    position: absolute;
+    margin-top: 13px;
+    //margin-right: 10px;
+    //margin-left: 5px;
+
+    left: 3%;
+    //right: 5%;
+}
+
+.sign {
+    font-family: Inter, sans-serif;
+    font-size: 17.6026px;
+    font-weight: 100;
+    text-align: left;
+    margin-top: 30px;
+    /* line-height: 20.6436px; */
+    color: rgb(69, 68, 63);
+    margin-left: 53px;
+
+}
+
+.dy {
+    background-color: #F6F5F5;
+}
+
+.meeting {
+    font-family: Cinzel, "Palatino Linotype", sans-serif;
+    font-size: 18.2px;
+    font-weight: 100;
+    line-height: 26.112px;
+    color: rgb(69, 68, 63);
+    width: 250px;
+    margin-left: 149px;
+    margin-top: -40px;
+}
+
+.t {
+    margin-left: 30px;
+    margin-top: 22px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.full-width-img {
+    width: 100vw;
+    height: auto;
+    display: block;
+}
+
+.sub {
+    font-family: Inter, sans-serif;
+    font-size: 13.7488px;
+    font-weight: 400;
+    line-height: 19.2px;
+    color: #898987 !important;
+}
+
+.submit {
+    background-color: #B9B9B7;
+    padding: 15px;
+
+}
+
+.subs {
+    font-family: Inter;
+    font-size: 18.4px;
+    font-weight: 400;
+    line-height: 20.16px;
+    color: rgb(69, 68, 63);
+}
+
+.email-box {
+    background-color: #13130F !important;
+    /* apna color yaha lagaye */
+    color: #000;
+    /* text color visible rahe isliye */
+    border: 0px !important;
+    border-radius: 0px !important;
+    margin-left: -10px !important;
+}
+
+.std {
+    background-color: #13130F;
+}
+
+.email-box:focus {
+    box-shadow: none !important;
+    outline: none !important;
+    border: none !important;
+}
+
+.hr {
+    color: white;
+    margin-top: -1px;
+    width: 350px;
+    //
+    margin-left: 12px;
+}
+
+.mail {
+    font-size: 20px;
+    margin-left: -10px;
+}
+
+.grey {
+    color: #898987 !important;
+    font-family: Inter, sans-serif;
+}
+
+.reserve {
+    margin-right: -30px;
+    font-size: ;
+}
+
+.anchor a {
+    //display: block;             
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.achr {
+    font-family: Inter, sans-serif;
+    font-size: 17px;
+}
+
+.hr2 {
+    color: white;
+    height: 3px;
+}
+
+.our {
+    font-family: Cinzel, "Palatino Linotype", sans-serif;
+    font-size: 19.2px;
+    font-weight: 400;
+    line-height: 26.112px;
+    color: rgb(255, 255, 255);
+}
+
+.btne {
+    margin-top: -10px !important;
+
+}
+
+/* Transparent first navbar (already in your code) */
+.second-navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 85px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s ease;
+    background-color: #FFFFFF;
+    z-index: 1050;
+    /* navbar upar rahe */
+}
+
+.second-navbar.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.bg-ffff {
+    background-color: #FFFFFF;
+}
+
+.gold {
+    color: #AD8B3A;
+}
+
+.taj2 img {
+    height: 65px;
+    width: 65px;
+}
+
+.second-navbar .dropdown-toggle::after {
+    border-top: 0.4em solid #AD8B3A !important;
+    /* arrow color */
+    border-right: 0.4em solid transparent;
+    border-left: 0.4em solid transparent;
+    vertical-align: middle;
+}
+
+/* hotel css */
+/* Assuming css/style.css and your image is in /images/hotel.jpg */
+.hotel {
+    /* overlay gradient for readable text + background image */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+        url("../images/hotel.jpg");
+    background-size: cover;
+    /* cover the whole area */
+    background-position: center;
+    /* center crop */
+    background-repeat: no-repeat;
+    height: 550px;
+    /* adjust height as needed */
+    display: flex;
+    /* center the text vertically/horizontally */
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    top: -160px;
+}
+
+/* text style */
+/* .tajhotel {
+  margin: 0;
+  font-size: 3rem;              
+  letter-spacing: 0.08em;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.6);
+  padding: 0.5rem 1rem;
+  background: rgba(0,0,0,0.18);   
+  border-radius: 6px;
+} */
+
+/* responsive tweak */
+/* @media (max-width: 768px) {
+  .hotel {
+    height: 280px;
+  }
+  .tajhotel {
+    font-size: 1.6rem;
+    padding: 0.4rem 0.8rem;
+  }
+} */
+
+.tajhotel {
+    font-family: Cinzel, "Palatino Linotype", sans-serif;
+    font-size: 49.6128px;
+    font-weight: 400;
+    line-height: 59.5354px;
+    color: rgb(255, 255, 255);
+    margin-top: 200px;
+    margin-left: -650px;
+}
+
+.tajhotel::before {
+    content: '';
+    height: 1px;
+    width: 80px;
+    background-color: white;
+    position: absolute;
+    margin-top: 32px;
+    left: 11%;
+}
+
+.dileep {
+    margin-top: -150px;
+}
+
+/* hotel css end */
+.india0 {
+    font-family: Cinzel, "Palatino Linotype", sans-serif;
+    font-size: 49.6128px;
+    font-weight: 400;
+    line-height: 59.5354px;
+    color: rgb(69, 68, 63);
+}
+
+.india0::after {
+    content: '';
+    height: 1px;
+    width: 100px;
+    background-color: black;
+    position: absolute;
+    margin-top: 32px;
+    left: 62%;
+}
+
+.india0::before {
+    content: '';
+    height: 1px;
+    width: 100px;
+    background-color: black;
+    position: absolute;
+    margin-top: 32px;
+    left: 28%;
+}
+
+.splide {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.splide__slide {
+    transition: all 0.4s ease;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    perspective: 1000px;
+    /* for subtle depth */
+}
+
+.slide-content {
+    background: transparent;
+    /* border-radius: 20px; */
+    padding: 30px 50px;
+    text-align: center;
+    transition: all 0.4s ease;
+    transform: scale(0.95);
+    box-shadow: none;
+}
+
+.slide-content img {
+    height: 40px;
+    filter: grayscale(100%) brightness(0.5);
+    transition: all 0.4s ease;
+}
+
+.slide-content h3 {
+    font-family: "Times New Roman", serif;
+    font-size: 20px;
+    color: #555;
+    transition: all 0.4s ease;
+}
+
+/* Highlight active (center) slide */
+.splide__slide.is-active .slide-content {
+    background: #fff;
+    transform: scale(1);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    /* 👈 shadow only on active slide */
+}
+
+.splide__slide.is-active .slide-content h3 {
+    color: #b19756;
+    /* gold text */
+}
+
+.splide__slide.is-active .slide-content img {
+    filter: brightness(1) sepia(100%) hue-rotate(15deg) saturate(300%);
+}
+
+
+input {
+    border: 20px;
+    outline: none;
+    background: transparent;
+
+}
+
+.search-box {
+    border-bottom: 2px;
+}
+
+.hr3 {
+    width: 500px;
+    height: 2px;
+}
+
+.h-image img {
+    height: 380px;
+    width: 570px;
+}
+
+.sonal {
+    width: 98%;
+    margin-left: 11.50px;
+    margin-top: -30px;
+}
+
+.dest {
+    font-family: Cinzel, "Palatino Linotype", sans-serif;
+    font-size: 19.2px;
+    font-weight: 400;
+    line-height: 26.112px;
+    color: rgb(69, 68, 63);
+}
+
+.btna {
+    width: 150px;
+    background-color: #AD8B3A;
+}
+
+.btna:hover {
+    background-color: #B19756;
+}
+
+.gold {
+    color: #B19756;
+
+}
+
+.exclu {
+    font-family: Cinzel, "Palatino Linotype", sans-serif;
+    font-size: 49.6128px;
+    font-weight: 400;
+    line-height: 59.5354px;
+    color: rgb(69, 68, 63);
+}
+
+.exclu::after {
+    content: '';
+    height: 1px;
+    width: 100px;
+    background-color: black;
+    position: absolute;
+    margin-top: 32px;
+    left: 67%;
+}
+
+.exclu::before {
+    content: '';
+    height: 1px;
+    width: 100px;
+    background-color: black;
+    position: absolute;
+    margin-top: 32px;
+    left: 26%;
+}
+
+.experiences {
+    /* overlay gradient for readable text + background image */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+        url("../images/experiences.avif");
+    background-size: cover;
+    /* cover the whole area */
+    background-position: center;
+    /* center crop */
+    background-repeat: no-repeat;
+    height: 700px;
+    /* adjust height as needed */
+    display: flex;
+    /* center the text vertically/horizontally */
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    top: -160px;
+}
+
+.curated {
+    font-family: Cinzel, "Palatino Linotype", sans-serif;
+    font-size: 49.6128px;
+    font-weight: 400;
+    line-height: 59.5354px;
+    color: rgb(69, 68, 63);
+    margin-top: -100px;
+}
+
+.curated::after {
+    content: '';
+    height: 1px;
+    width: 100px;
+    background-color: black;
+    position: absolute;
+    margin-top: 32px;
+    left: 77%;
+}
+
+.curated::before {
+    content: '';
+    height: 1px;
+    width: 100px;
+    background-color: black;
+    position: absolute;
+    margin-top: 32px;
+    left: 17%;
+}
+
+.expr {
+    font-family: Cinzel, "Palatino Linotype", sans-serif;
+    font-size: 19.2px;
+    font-weight: 400;
+    line-height: 26.112px;
+    color: rgb(69, 68, 63);
+}
+
+.expr img {
+    height: 415px;
+    /* width: 720px; */
+}
+
+.expr::before {
+    content: '';
+    height: 1px;
+    width: 40px;
+    position: absolute;
+    background-color: black;
+    margin-top: 12px;
+    left: 9%;
+}
+
+.expr2 {
+    font-family: Inter, sans-serif;
+    font-size: 17.6026px;
+    font-weight: 300;
+    line-height: 23.9616px;
+    color: rgb(69, 68, 63);
+    margin-top: 40px;
+}
+
+.offer {
+    /* overlay gradient for readable text + background image */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+        url("../images/offer.webp");
+    background-size: cover;
+    /* cover the whole area */
+    background-position: center;
+    /* center crop */
+    background-repeat: no-repeat;
+    height: 700px;
+    /* adjust height as needed */
+    display: flex;
+    /* center the text vertically/horizontally */
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    top: -160px;
+}
+
+.business {
+    /* overlay gradient for readable text + background image */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+        url("../images/business.avif");
+    background-size: cover;
+    /* cover the whole area */
+    background-position: center;
+    /* center crop */
+    background-repeat: no-repeat;
+    height: 700px;
+    /* adjust height as needed */
+    display: flex;
+    /* center the text vertically/horizontally */
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    top: -160px;
+}
+
+.busi {
+    font-family: Inter, sans-serif;
+    font-size: 17.6026px;
+    font-weight: 300;
+    line-height: 23.9616px;
+    color: rgb(69, 68, 63);
+}
+
+.busi img {
+    height: 450px;
+    width: 350px;
+}
+
+.smd {
+
+    font-family: Cinzel, "Palatino Linotype", sans-serif;
+    font-size: 19.2px;
+    font-weight: 400;
+    line-height: 26.112px;
+    color: rgb(69, 68, 63);
+    margin-left: 20px;
+    background-color: white;
+
+    padding: px;
+    margin-top: -40px;
+
+}
+
+.sms {
+    width: 398px;
+    height: 80px;
+
+
+
+}
+
+.rin {
+    font-family: Cinzel, "Palatino Linotype", sans-serif;
+    font-size: 49.6128px;
+    font-weight: 400;
+    line-height: 59.5354px;
+    color: rgb(69, 68, 63);
+}
+
+.rin::after {
+    content: '';
+    height: 1px;
+    width: 100px;
+    background-color: black;
+    position: absolute;
+    margin-top: -22px;
+    left: 73%;
+}
+
+.rin::before {
+    content: '';
+    height: 1px;
+    width: 100px;
+    background-color: black;
+    position: absolute;
+    margin-top: 32px;
+    left: 19%;
+}
+
+/* bg slider start */
+.bg-slide {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* transition: background-image 0.7s ease-in-out; */
+}
+
+.content-box {
+    /* background-color: white; */
+    padding: 30px;
+    /* border-radius: 20px; */
+    width:100%;
+    max-width: 900px;
+    /* box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3); */
+}
+
+.content-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    /* border-radius: 15px; */
+}
+.neu {
+            font-family: Inter, sans-serif;
+            font-size: 15.6026px;
+            font-weight: 300;
+            line-height: 23.9616px;
+            color: rgb(69, 68, 63);
+            margin-left: 100px;
+        }
+
+        .neupass {
+            font-family: Cinzel, "Palatino Linotype", sans-serif;
+            font-size: 20.6512px;
+            font-weight: 400;
+            line-height: 27.9552px;
+            color: rgb(69, 68, 63);
+            margin-left: 100px;
+            margin-top: 50px;
+        }
+.tta{
+    margin-left: -15px;
+}
+  .custom-prev, .custom-next {
+    width: 40px;
+    height: 40px;
+    background: #AD8B3A;
+    border-radius: 50%;
+    top: 50%;
+    /* transform: translateY(-50%); */
+    position: absolute;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* box-shadow: 0 0 10px rgba(0,0,0,0.3); */
+  }
+
+  
+
+  .custom-prev {
+    left: -250px;    
+  }
+
+  .custom-next {
+    right: -250px;   
+  }
+
+/* bg slider end */
